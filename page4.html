@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C2</title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New'
+    }
+    fieldset{
+        text-align: center;
+        width: 40%;
+        margin-left: 25%;
+        font-size: 35px;
+    }
+    h2{
+        padding: 5%;
+        margin-left: 25%;
+    
+
+    }
+    h3{
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    
+    
+    .fin{
+    margin-left: 45%;
+    }
+    a{
+        margin-left: 80%;
+        text-decoration: none;
+        background-color: black;
+        color: blanchedalmond;
+        padding: 10px 10px;
+        border-radius: 35px;}
+</style>
+<body>
+    <fieldset>
+        CHAPITRE IV: LES BALISES DE MISE EN FORME
+    </fieldset> <br><br>
+    
+    
+
+ 
+    <h2>
+        I/ LES BALISES DE MISE EN FORME SANS HATTRIBUT
+    </h2>
+    <h3>
+       1- Les balises < b >....< /b > et < strong >....< /strong > <br><br>
+       Elles permettent de metre le texte qu'elles continnent en <b>gras.</b>
+       c'est utile pour les textes importants ou titres. <br>
+       EX: < strong > Ce texte est en gras< /strong > <br><br>
+       2- La balise < u >....< /u > <br><br>
+       Elle souligne le texte qu'elle entoure. C'est utile
+       pour attirer l'attention sur un mot ou sur une phrase. <br><br>
+       EX: < u > Ce texte est souligné < /u > <br><br>
+       3- La balise < i >....< /i ><br><br>
+       Elle met le texte en <i>italique</i>. <br>
+       EX:< i > Ce texte est en italique < /i ><br><br>
+       4- La balise < s >....< /s > <br><br>
+       Elle barre le texte. C'est pratique pour marquer un contenue obselette
+       ou invalide. <br><br>
+       5- Les balises < h1 >..< /h1 >; < h2 >..< /h2 >; 
+       < h3 >..< /h3 >; <br> < h4 >..< /h4 >; < h5 >..<  /h5> et
+        < h6 >..< /h6 > <br><br>
+       La balise < h1 >..< /h1 > ( heading) désigne un titre de premier niveau.
+       Le texte qu' elle entoure est de grande taille et mise en gras. Elle est
+       utile pour créer les grands titres d'une page. <br><br>
+       La balilise < h2 >..< /h2 > désigne un titre de deuxième niveau, Elle applique 
+       le meme effet que celle precédente mais avec une taille de caractère légèrement
+       plus petite. c'est pratique pour les sous-titres. <br><br>
+       6-Les balises < sup >..< /sup > et < sub >..< /sub > <br><br>
+        La balise < sup >..< /sup > met le texte en exposant et la balise 
+        < sub >..< /sub > met le texte en indice <br><br>
+        <i>Application:</i> Affiche  H<sub>2</sub>O et X<sup>2</sup> sur
+        ta page. <br><br>
+        7- La balise < br > <br> <br>
+        Elle est une balise orpheline car elle n'a pas de balise fermante.
+        Pour retourner à la ligne à n'importe quel moment il suffit de 
+        déclarere la balise < br >.
+        EX: <br>
+        Ligne1 < br > <br>
+        Ligne2 < br > <br>
+        Ligne3 < br >
+    </h3>
+    <h2>II/ LES BALISES DE FORMATAGE AVEC ATTRIBUTS </h2>
+    <h3>
+        Avec la meme balise on peut réussir plusieurs effets différents
+        c'est grace aux attributsque celle-ci renferme. Une des balise 
+        la plus populairede HTML est la balise < font > <br><br>
+        1- La balise < font >..< /font >
+        La balise de formatage la plus connue est sans doute la balise < font >.
+        Elle dispose de trois attribut principaux qui permettent d'ppliquer des
+        effets non négligeable au texte.
+        ces trois attributs sont: <br>
+        <ol type="a">
+            <li>L'attribut <b>FACE</b>: pertmet de spécifier la police à 
+            l'utilisateur pour afficher. Par defaut c'est la police <b>Time
+            new roman</b> qui est appliquée par la plus part des navigateurs
+            Si aucune police n'est spécifiée <br>
+        EX: < font face="Arial" > La police arial < /font ></li><br>
+            <li>L'attribut <b>SIZE</b>: Permet de changer la taille de la police du
+             du texte. Par défaut le navigateur applique la taille 12 point 
+            aux polices. <br>
+        HTML ne supporte que 7 tailles de police, Elles sont déclarées par des 
+    indices allant de 1 à 7. <br><br>
+  <table border="1" cellspacing="0" cellpading="0" 
+  align="center" width="50%">
+      <tr align="center">
+        <td><b>INDICE</b></td>
+       <td> <b>TAILLE (pt)</b></td>
+    </tr>
+      <tr align="center"> 
+        <td>1</td>
+        <td>8</td></tr>
+      <tr align="center"> 
+        <td>2</td>
+        <td>10</td></tr>
+      <tr align="center"> 
+        <td>3</td>
+        <td>12</td></tr>
+      <tr align="center"> 
+        <td>4</td>
+        <td>14</td></tr>
+      <tr align="center"> 
+        <td>5</td>
+        <td>18</td></tr>
+      <tr align="center"> 
+        <td>6</td>
+        <td>24</td></tr>
+      <tr align="center"> 
+        <td>7</td>
+        <td>36</td>
+    </tr></table></li> <br><br>
+            <li>L'attribut <b>COLOR</b>: sert à appliquer une couleur au texte
+            entouré par la balise < font >. <br>
+            La methode la plus simple pour définir une coleur, c'est par son nom
+             en anglais. <br><br>
+             2- La balise < body >...< /body > <br><br>
+             La balise < body >..< /body > 
+             est une balise qui encapsule tout le contenu visible d'une page web. <br><br>
+             <ol type="a">
+                <li>L'attribut <b> bg-color:</b> Definit la couleur d'arrriére plan de la page.
+                 Vous pouvez utilmiser une couleur spécifique 
+                 en code hexadécimal ou en anglais.</li> <br>
+                 <li>L'attribut <b>texte:</b> Définit la couleur du texte de la page.</li><br>
+                <li>L'attribut <b>background:</b>: Spécifit une image 
+                    comme arrière plande la page.</li> <br>
+                <li>Les attributs <strong>link; alink; vlink:</strong> Ces attributs définissent,
+                    respectivement la couleur des liens non visités; liens activés et
+                liens déjà visités.</li>
+             </ol>
+        </li>
+        </ol>
+
+    </h3>
+    <h3>
+ 
+         <br><br><br><a href="page5.html">SUIVANT</a><br><br><br>
+         <div class="fin">FIN</div>
+
+    </h3>
+        
+          
+    
+     
+  
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C2</title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New'
+    }
+    fieldset{
+        text-align: center;
+        width: 40%;
+        margin-left: 25%;
+        font-size: 35px;
+    }
+    h2{
+        padding: 5%;
+        margin-left: 25%;
+    
+
+    }
+    h3{
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .fin{
+    margin-left: 45%;
+    }
+    a{
+        margin-left: 80%;
+        text-decoration: none;
+        background-color: black;
+        color: blanchedalmond;
+        padding: 10px 10px;
+        border-radius: 35px;}
+    
+</style>
+<body>
+    <fieldset>
+        CHAPITRE VIII: LES FORMULAIRES HTML
+    </fieldset>
+    
+       <h2>I/ INTRODUCTION</h2>
+       <h3>
+        Un formulaire HTML permet de rendre la page plus intéractive 
+        en la rendant capable de dialoguer avec l'utilisateur a trvers
+        des champs de saisie et boutons. Il permet à l'utilisateur de valider un
+        choix ou encore de saisire du texte. <br>
+        Ces informations seront ensuite envoyées au serveur pour les traiter.
+       </h3>
+       <h2>
+        II/ LA BALISE < form >..< /form >
+       </h2>
+       <h3>
+        Elle délimite les champs du formulaire, Elle peut avoir plusieurs attributs 
+        dont les plus fréquents sont: <br><br>
+        1- L'attribut name <br><br>
+        L'attribut name d'identifier le formulaire par un nom. <br><br>
+        2- L'attribut method <br><br>
+        L'attribut method permet de spécifier la methode à l'utilisateur pour
+        envoyer les formulaires au serveur. En effet l'objectif d'un formulaire 
+        c'est d'envoyer les informations saisies par client au serveur. <br>
+        En HTML il existe deux methodes pour envoyer un
+         formulaire GET et POST.
+         <ul>
+            <li> La methode GET: permet d'envoyer les données par url
+               </li> <br>
+            <li>La methode POST: permet d'envoyer les données du formulaire
+                au serveur a trvers une entete.  </li>
+         </ul> <br><br>
+          3- L'attribut action <br><br>
+          Quand un formulaire est remplit par l'internaute il est posté
+          au serveur pour le traitement. IL faut donc  désigner la page qui 
+          se chargera du traitement des données. <br>
+          Cette page est spécifiée dans l'attribut action.
+       </h3>
+       <h2>
+        II/ LA BALISE < input >
+       </h2>
+       <h3>
+        1- Définition <br><br>
+        La zone de texte est le champ de formulaire le plus célèbre,
+        Il permet d'ecrir un texte. 
+        Pour créer une zone de texte on fait appel à la balise < input >. <br>
+        C'est une balise orpheline donc pas de balise fermante. <br><br>
+        2- L'attribut type <br><br>
+        L'attribut type permet de définir le type de champ à intégrer.
+        Voici les valeurs à mettre pour cet attribut et qui permettent 
+        d'avoir ls champs les plus fréquents: <br><br>
+        <ul>
+            <li>texte</li>
+            <li>password</li>
+            <li>radio</li>
+            <li>chekcbox</li>
+            <li>file</li>
+            <li>hidden</li>
+            <li>button</li>
+            <li>reset</li>
+            <li>submit</li>
+
+        </ul> 
+       </h3>
+       <h2>
+        III/ LA BALISE < textarea >..< /textarea >
+       </h2>
+<h3>
+    Cette balise permet de définir un espace de texte. IL dispose des 
+    attributs suivats : Cols pour la largeur et rows pour la hauteur.
+</h3>
+<h2>
+    IV/ LA BALISE < select >..< /select >
+</h2>
+<h3>
+    ELle permet de faire sotir Une
+    liste de sélection ou une list edéroulante, Pour remplire cette liste 
+    avec des valeurs appelées 'option' on déclarer une autre balise 
+    à l'intérieur c'est la balise < option >..< /option >, Dans celle
+    ci on déclare le mot à afficher en tant qu'élément de la liste.
+</h3>
+   <h2>
+    VI/ LA BALISE < fieldset >..< /fieldset >
+   </h2>
+   <h3>
+    Elle permet d'appliquer un cadre qui entoure le formulaire.
+   </h3>
+   <h2>
+    VII/ LA BALISE < legend  >..< /legend >
+   </h2>
+   <h3>
+    Elle permet de donner la legende du formulaire.
+   </h3>
+   
+  <h3>
+            <br><br><br><a href="page9.html">SUIVANT</a><br><br><br>
+            <div class="fin">FIN</div>
+   
+       </h3>
+          
+    
+     
+  
+</body>
+</html>
